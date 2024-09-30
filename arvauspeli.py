@@ -1,9 +1,9 @@
 import random
 
 def arvauspeli():
-    numero = random.randint(1, 100)
+    numero = random.randint(1, 1000)
     yritykset = 0
-    print("Arvaa numero 1 ja 100 välillä!")
+    print("Arvaa numero 1 ja 1000 välillä!")
 
     while True:
         arvaus = input("Anna arvauksesi: ")
